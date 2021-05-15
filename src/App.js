@@ -13,7 +13,7 @@ const App = () => {
   // taken from "https://developer.edamam.com/admin/applications"
   const APP_ID = "27670e6e" ;
   const APP_KEY = "9658cefb0e4ea344a3d11bbd876b18a8";
-  const exampleReq = `/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
+  const exampleReq = `${process.env.REACT_APP_API}/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
 // const [counter, setCounter] = useState(0);
 
