@@ -53,7 +53,8 @@ const App = () => {
 
 
   return (
-   <div className="App">
+   <div className="container App">
+     <h1 className="text-center py-4">Recipe App</h1>
      <form onSubmit={getSearch} className="search-form">
        <input 
        className="search-bar" 
