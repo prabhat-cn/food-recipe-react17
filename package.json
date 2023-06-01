@@ -1,6 +1,7 @@
 {
   "name": "recipe",
   "version": "0.1.0",
+  "you-tut": "https://youtu.be/U9T6YkEDkMo",
   "private": true,
   "developer": "Prabhat",
   "api-recipe": "https://developer.edamam.com/admin/applications",
